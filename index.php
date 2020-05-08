@@ -16,13 +16,11 @@
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3&" async defer></script> -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-N8cQ98UGLbufnrHGcbloHgNQIQOCVb8">
-  </script>
-  <script type="text/javascript" src="js/maps.js"></script>
+  <!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3&" async defer></script> -->  
+  <!-- <script type="text/javascript" src="js/maps.js"></script> -->
 </head>
 
-<body onload="initialize()">
+<body>
   <?php if (isset($_GET['page'])) : ?>
     <header id="header1">
       <div class="container">
@@ -141,6 +139,11 @@
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
   <script src="js/main.js"></script>
+
+  <!-- Google Map Feature -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-N8cQ98UGLbufnrHGcbloHgNQIQOCVb8"></script>
+  <script src="js/katakanpeta.js"></script>
+
 </body>
 
 </html>
